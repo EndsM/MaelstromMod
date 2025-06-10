@@ -5,8 +5,6 @@ bin
 .metadata
 .classpath
 .project
-*.class
-*.info
 
 # idea
 out
@@ -21,18 +19,7 @@ build
 
 # other
 eclipse
-!run/
-run/*
-!run/saves/
-run/saves/*
-!run/saves/BUILDING_WORLD/
+run
 
-!TestMaelstromMod/
-TestMaelstromMod/*
-!TestMaelstromMod/.settings/
-TestMaelstromMod/.settings/*
-!TestMaelstromMod/.settings/org.eclipse.jdt.core.prefs
-!TestMaelstromMod/src/
-!TestMaelstromMod/.classpath
-!TestMaelstromMod/.project
-
+# Files from Forge MDK
+forge*changelog.txt
